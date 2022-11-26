@@ -1,0 +1,35 @@
+h1{
+    color: rgb(6, 136, 6);
+    background-color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#show{
+    float: right;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+canvas{
+    border: 5px solid rgb(218, 86, 53);
+    border-radius: 50px; 
+    animation-name: example;
+    animation-duration: 7s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow:15px 15px 5px blue;}
+    to{box-shadow: 15px 15px 5px lime;}
+}
+
+#clear{
+    margin-bottom:15px ;
+}
+
+
+
+
